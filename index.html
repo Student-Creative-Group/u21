@@ -13,60 +13,79 @@ Footnote place thing:
 --> 
     
 <body>
-    <div class="container" id="main">
-        <img src="imgs/u21Blue.png">
-        <h2>August 3-5th / Silicon Valley</h2>
-        <h3>Interested? <textarea></textarea></h3>
-    
+    <div id="main" class="container" >
+        <div id="logo" class="container" >
+            <img src="imgs/u21Blue.png">
+            <h2>August 3-5th / Silicon Valley</h2>
+            <h3>Interested? <input type="text" class="form-control" placeholder="email" style="width: 30%;"></h3>
+            <button>Sign Up</button>
+        </div>
     </div>
     
-    <div id="about">
-        <h1 class="center">About</h1>
-        <div class="container">
-            <div class="row">
-            <div class="col-md-1"></div>
+<div class= "row">
+    
+    <div class="col-md-6" id="about">
+    <h2 class="text-center">About</h2>
+        
+        
+    <hr>
+     <div class="container">
+            <div class="container row n">
+                <div class="col-md-1"></div>
             <div class="col-md-4 blockblack"><p>  The U21 conference is one of the most unforgettable experiences filled with exciting opportunities and amazing chances to network with the brightest young minds of the nation. Students come to learn how to build a successful business, maximize resources, and discover other young talents through technology.
     This conference aims to bring young entrepreneurs to the limelight, and encourage a community of young makers to help each other grow their business and products. This conference is made for technical and creative minds inspired to create for the next generation.</p></div>
             </div>
         </div>
+        
     </div>
     
-    <div id="Schedule">
+        <div class="container col-md-6">
+            <h2 class="text-center">Speakers</h2>
+            <h3 class="center">To Be Announced on June 1st</h3>
+                <hr>   
+                <div class="row" id="grid">
+                    <div class="col-md-4 col-xs-4"><img src="imgs/bobby.jpg"></div>
+                    <div class="col-md-4 col-xs-4"><img src="imgs/bobby.jpg"></div>
+                    <div class="col-md-4 col-xs-4"><img src="imgs/bobby.jpg"></div>
+                    <div class="col-md-4 col-xs-4"><img src="imgs/bobby.jpg"></div>
+                    <div class="col-md-4 col-xs-4"><img src="imgs/bobby.jpg"></div>
+                    <div class="col-md-4 col-xs-4"><img src="imgs/bobby.jpg"></div>
+                </div>   
+
+    </div>    
+    
+</div>  
+    
+    <div class="bar" id="Schedule">
         <h1 class="center">Schedule: To Be Announced on May 15th</h1>
         <h3 class="center">Friday | Saturday | Sunday</h3>
     </div>
     
-    <div id="Speakers">
-        <h1 class="center">Speaker</h1>
-        <div class="row center">
-            <div class="col-md-2 center"><img class="square"src="imgs/bobby.jpg"></div>
-            <div class="col-md-2"><img class="square"src="imgs/bobby.jpg"></div>
-            <div class="col-md-2"><img class="square"src="imgs/bobby.jpg"></div>
-            <div class="col-md-2"><img class="square"src="imgs/bobby.jpg"></div>
-            <div class="col-md-2"><img class="square"src="imgs/bobby.jpg"></div>
-            <div class="col-md-2"><img class="square"src="imgs/bobby.jpg"></div>
-        </div>
-        <h3 class="center">To Be Announced on June 1st</h3>
-    </div>
+
     
     <div id="involved">
         <div class="container">
             <div class="row">
-
-                <div class="col-md-6 center">Volunteer
-    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
-                    <p class="help-block">We won't spam you.</p>
+                <div class="col-md-6 center" id="volunteer">
+                    <h3>Volunteer</h3>
+                    <input type="text" class="form-control" placeholder="E-mail">
+                    <br>
+                    <button class="btn" type="button">Go!</button>
                 </div>
-                <div class="col-md-6 center">Apply to Speak
-                    <textarea></textarea>
-                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                    <input type="text">
-                </div>                
+                <div class="col-md-6 center" id="speak">
+                    <h3>Apply to Speak</h3>
+                    <input type="text" class="form-control" placeholder="E-mail">
+                    <br>
+                    <button class="btn" type="button">Go!</button>
+                </div>      
             </div>
+            <br>
+            <p class="help-block">We won't spam you.</p>
         </div>
     </div>
+
     
-    <div class="center" id="sponsor">
+    <div class="center bar" id="sponsor">
         <h1 class="center">Interested in Sponsoring?</h1>
         <h3 class="center">Here's our prospectus.</h3>
         <button>Parner with us!</button>
@@ -87,3 +106,4 @@ Footnote place thing:
     </div>
 </body>
 </html>
+
