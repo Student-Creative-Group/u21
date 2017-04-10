@@ -10,9 +10,11 @@ height: 100%;
 }
 
 .blockblack{
-    background-color: rgba(255,225,11,0.5);
+
+    border: 2px dashed rgba(255,225,11,0.8);
     color: rgb(25,36,102);
     padding: 30px;
+    
 }
 
 .square{
@@ -51,20 +53,6 @@ position: relative;
 top:35%;
 }
 
-input[type=text] {
-    padding: 0;
-    height: 30px;
-    position: relative;
-    left: 0;
-    outline: none;
-    border: 1px solid #000;
-    border-color: rgba(0,0,0,.15);
-    background-color: white;
-    font-size: 16px;
-}
-
-
-
 #grid img{
   height: 33.33%;
 }
@@ -78,75 +66,72 @@ input[type=text] {
 
 
 
-.btn:hover{
-        transition: all .3s ease;
-    border: 1px solid #FFFFFF;
-    position: relative;
-    display: block;
-    width: 240px;
-    height: 76px;
-    top: 10px;
-    right: 12px;
-    padding: 19px 0 0 11px;
-    letter-spacing: 1.2px;
+button {
+    background-color: rgba(255,255,255,0.6);
+    color: black;
+    border: none;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    
+     box-shadow: -5px 5px 0px 0px rgba(255,0,132,0.8), -4px 4px 0px 0px rgba(255,0,132,0.8), -3px 3px 0px 0px rgba(255,0,132,0.8), -2px 2px 0px 0px rgba(255,0,132,0.8), -1px 1px 0px 0px rgba(255,0,132,0.8), 0px 0px 0px 0px rgba(255,0,132,0.8);
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;
+    
+    
 }
 
-.btnx:hover{
-    transition: all .3s ease;
-    border: 1px solid #FFFFFF;
-    position: relative;
-    display: block;
-    width: 240px;
-    height: 76px;
-    top: 10px;
-    right: 12px;
-    padding: 19px 0 0 11px;
-    letter-spacing: 1.2px;
+button:hover {
+     box-shadow: -0px 0px 0px 0px rgba(255,0,132,0.8), -0px 0px 0px 0px rgba(255,0,132,0.8), -0px 0px 0px 0px rgba(255,0,132,0.8), -0px 0px 0px 0px rgba(255,0,132,0.8), -0px 0px 0px 0px rgba(255,0,132,0.8), 0px 0px 0px 0px rgba(255,0,132,0.8);
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;
 }
 
-      section#intro .early-bird a span.outside {
-        color: #E35EAD;
-        font-weight: 700;
-        text-decoration: none;
-        text-align: center;
-        text-transform: uppercase;
-        border: 1px solid #E35EAD;
-        position: relative;
-        margin: 0 auto 0;
-        display: block;
-        width: 240px;
-        height: 76px;
-        font-size: 15px;
-        transition: all .3s ease; }
-        section#intro .early-bird a span.outside span.inside {
-          transition: all .3s ease;
-          border: 1px solid #E35EAD;
-          position: relative;
-          display: block;
-          width: 240px;
-          height: 76px;
-          top: 10px;
-          right: 12px;
-          padding: 19px 0 0 11px;
-          letter-spacing: 1.2px; }
 
-.parallax-header .background .get-ticket a span.inside {
-            top: 10px;
-            right: 12px;
-            padding: 19px 0 0 11px;
-            letter-spacing: 1.2px; }
-        .parallax-header .background .get-ticket a:hover span.inside {
-          right: 0;
-          top: 0;
-          padding: 25px 0 0 0; }
-      section#intro .video span.play a.outside span.inside {
-        transition: all .3s ease;
-        border: 1px solid #FFFFFF;
-        position: relative;
-        display: block;
-        width: 240px;
-        height: 76px;
-        top: 10px;
-        right: 12px;
-        padding: 19px 0 0 11px;
-        letter-spacing: 1.2px; }
+#involved{
+    text-align: center;
+position: relative;
+margin-left: auto;
+top:25%;
+width: 100%;
+height: 70%;
+    z-index: 1;
+}
+
+#speak{
+    top:50px;
+}
+#volunteer{
+    bottom: 50px;
+}
+
+input[type=text]{
+    border-radius: 0px;
+ box-shadow: -5px 5px 0px 0px rgba(255,0,132,0.8), -4px 4px 0px 0px rgba(255,0,132,0.8), -3px 3px 0px 0px rgba(255,0,132,0.8), -2px 2px 0px 0px rgba(255,0,132,0.8), -1px 1px 0px 0px rgba(255,0,132,0.8), 0px 0px 0px 0px rgba(255,0,132,0.8);
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;
+}
+
+input[type=text]:focus{
+    background-color: rgba(255,255,255,0.8);
+     box-shadow: -0px 0px 0px 0px rgba(255,0,132,0.8), -0px 0px 0px 0px rgba(255,0,132,0.8), -0px 0px 0px 0px rgba(255,0,132,0.8), -0px 0px 0px 0px rgba(255,0,132,0.8), -0px 0px 0px 0px rgba(255,0,132,0.8), 0px 0px 0px 0px rgba(255,0,132,0.8);
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;
+    
+}
+
