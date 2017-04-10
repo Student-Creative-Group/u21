@@ -1,3 +1,10 @@
+html, body {
+  margin:0;
+  max-width: 100%;
+  overflow-x: hidden;
+height: 100%;
+}
+
 .center{
     text-align: center;
 }
@@ -17,11 +24,31 @@
     margin: auto;
     width: 80%;
 }
-textarea{
 
-}
 #main img{
     height: 100px;
+}
+
+#main{
+
+
+    background-image: url(../imgs/test.jpeg);
+      -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    width: 100%;
+height: 100%;
+    color: white;
+    
+    
+    
+    
+}
+
+#logo{
+position: relative;
+top:35%;
 }
 
 input[type=text] {
@@ -35,3 +62,91 @@ input[type=text] {
     background-color: white;
     font-size: 16px;
 }
+
+
+
+#grid img{
+  height: 33.33%;
+}
+
+.bar{
+    padding: 40px;
+    background-color: antiquewhite;
+     border-bottom: 4px dashed #000;
+    border-top: 4px dashed #000;
+}
+
+
+
+.btn:hover{
+        transition: all .3s ease;
+    border: 1px solid #FFFFFF;
+    position: relative;
+    display: block;
+    width: 240px;
+    height: 76px;
+    top: 10px;
+    right: 12px;
+    padding: 19px 0 0 11px;
+    letter-spacing: 1.2px;
+}
+
+.btnx:hover{
+    transition: all .3s ease;
+    border: 1px solid #FFFFFF;
+    position: relative;
+    display: block;
+    width: 240px;
+    height: 76px;
+    top: 10px;
+    right: 12px;
+    padding: 19px 0 0 11px;
+    letter-spacing: 1.2px;
+}
+
+      section#intro .early-bird a span.outside {
+        color: #E35EAD;
+        font-weight: 700;
+        text-decoration: none;
+        text-align: center;
+        text-transform: uppercase;
+        border: 1px solid #E35EAD;
+        position: relative;
+        margin: 0 auto 0;
+        display: block;
+        width: 240px;
+        height: 76px;
+        font-size: 15px;
+        transition: all .3s ease; }
+        section#intro .early-bird a span.outside span.inside {
+          transition: all .3s ease;
+          border: 1px solid #E35EAD;
+          position: relative;
+          display: block;
+          width: 240px;
+          height: 76px;
+          top: 10px;
+          right: 12px;
+          padding: 19px 0 0 11px;
+          letter-spacing: 1.2px; }
+
+.parallax-header .background .get-ticket a span.inside {
+            top: 10px;
+            right: 12px;
+            padding: 19px 0 0 11px;
+            letter-spacing: 1.2px; }
+        .parallax-header .background .get-ticket a:hover span.inside {
+          right: 0;
+          top: 0;
+          padding: 25px 0 0 0; }
+      section#intro .video span.play a.outside span.inside {
+        transition: all .3s ease;
+        border: 1px solid #FFFFFF;
+        position: relative;
+        display: block;
+        width: 240px;
+        height: 76px;
+        top: 10px;
+        right: 12px;
+        padding: 19px 0 0 11px;
+        letter-spacing: 1.2px; }
