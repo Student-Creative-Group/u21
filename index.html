@@ -3,6 +3,7 @@
 <head>
     <title>U21</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link type="text/css" href="css/main.css" rel="stylesheet">
 </head>
 <!--
@@ -16,15 +17,22 @@ Footnote place thing:
     <div id="main" class="container" >
         <div id="logo" class="container" >
             <img src="imgs/u21Blue.png">
-            <h2>August 3-5th / Silicon Valley</h2>
+            <h2>July 22-23rd / Silicon Valley</h2>
             <h3>Interested? <input type="text" class="form-control" placeholder="email" style="width: 30%;"></h3>
             <button>Sign Up</button>
         </div>
     </div>
     
-<div class= "row">
+    <div class="bar" id="Schedule">
+        <h1 class="center" style="font-size:70px;">About:</h1>
+         <div class="blockblack"><p>  The U21 conference is one of the most unforgettable experiences filled with exciting opportunities and amazing chances to network with the brightest young minds of the nation. Students come to learn how to build a successful business, maximize resources, and discover other young talents through technology.
+    This conference aims to bring young entrepreneurs to the limelight, and encourage a community of young makers to help each other grow their business and products. This conference is made for technical and creative minds inspired to create for the next generation.</p></div>
+    </div>
+    
+<div class= "row" id="second">
     
     <div class="col-md-6" id="about">
+        <!--
     <h2 class="text-center">About</h2>
         
         
@@ -36,12 +44,12 @@ Footnote place thing:
     This conference aims to bring young entrepreneurs to the limelight, and encourage a community of young makers to help each other grow their business and products. This conference is made for technical and creative minds inspired to create for the next generation.</p></div>
             </div>
         </div>
-        
+        -->
     </div>
     
         <div class="container col-md-6">
-            <h2 class="text-center">Speakers</h2>
-            <h3 class="center">To Be Announced on June 1st</h3>
+            <h2 class="text-center" style="color:white;">Speakers</h2>
+            <h3 class="center" style="color:white;">To Be Announced on June 1st</h3>
                 <hr>   
                 <div class="row" id="grid">
                     <div class="col-md-4 col-xs-4"><img src="imgs/bobby.jpg"></div>
@@ -53,7 +61,7 @@ Footnote place thing:
                 </div>   
 
     </div>    
-    
+
 </div>  
     
     <div class="bar" id="Schedule">
@@ -67,20 +75,31 @@ Footnote place thing:
         <div class="container">
             <div class="row">
                 <div class="col-md-6 center" id="volunteer">
-                    <h3>Volunteer</h3>
-                    <input type="text" class="form-control" placeholder="E-mail">
-                    <br>
-                    <button class="btn" type="button">Go!</button>
                 </div>
                 <div class="col-md-6 center" id="speak">
+                    
+                            
+                    <div id="outer">
+                        <div id="container">
+                 <h3>Volunteer</h3>
+                    <input type="text" class="form-control" placeholder="E-mail">
+                    <br>
+                    <button>Go!</button>
+                    <br>
                     <h3>Apply to Speak</h3>
                     <input type="text" class="form-control" placeholder="E-mail">
                     <br>
-                    <button class="btn" type="button">Go!</button>
+                    <button>Go!</button>
+                    
+                    <br>
+                    <p class="help-block">We won't spam you.</p>
+                    
+                        </div>
+                    </div>
+                    
+   
                 </div>      
             </div>
-            <br>
-            <p class="help-block">We won't spam you.</p>
         </div>
     </div>
 
@@ -91,13 +110,19 @@ Footnote place thing:
         <button>Parner with us!</button>
     </div>
     
-    <div class="center" id="footer">
-        <h3>Have a question? Contact Us!</h3>
-        <div class="row">
-           <div class="col-md-2"><img class="square"src="imgs/bobby.jpg"></div>           
-            <div class="col-md-2"><img class="square"src="imgs/bobby.jpg"></div>           
-            <div class="col-md-2"><img class="square"src="imgs/bobby.jpg"></div>
-            <div class="col-md-2"><h5>| Facebook    Twitter Email</h5></div>
+    <div class="center container" id="footer">
+        <h3 class="center">Have a question? Contact Us!</h3>
+        <div class="container" id="social">
+            
+            <div class="col-md-4">
+            <i class="fa fa-facebook"><span>/u21</span></i>  
+            </div>
+            <div class="col-md-4">
+            <i class="fa fa-twitter"><span>/u21</span></i> 
+            </div>
+            <div class="col-md-4">
+            <i class="fa fa-envelope"><span>:test@gmail.com</span></i>
+            </div>
 
         </div>
         <div id="coc">
